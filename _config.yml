@@ -1,0 +1,99 @@
+# Hexo site configuration
+title: "\u9f20\u9f20\u4eca\u5929\u5403\u5609\u7136"
+subtitle: "『关于我尝试在AGI时代记录一点可能有价值的内容这件事』"
+description: ""
+author: "\u9f20\u9f20\u4eca\u5929\u5403\u5609\u7136"
+language: zh-CN
+timezone: Asia/Shanghai
+url: https://kanda-akihito-kun.github.io
+root: /
+permalink: :year/:month/:day/:title/
+source_dir: source
+public_dir: public
+theme: yilia-plus
+theme_config: {}
+deploy:
+  type: git
+  repo: https://github.com/Kanda-Akihito-Kun/Kanda-Akihito-Kun.github.io.git
+  branch: gh-pages
+new_post_name: :title.md
+default_layout: post
+filename_case: 0
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+  timeout: 10000
+  watch: false
+skip_render: []
+menu:
+  "\u4e3b\u9875": /
+  "\u5f52\u6863": /archives/
+subNav:
+  - github: "https://github.com/Kanda-Akihito-Kun"
+  - bilibili: "https://space.bilibili.com/3220012"
+hover_effect:
+  global: 2
+  subNav: true
+rss: /atom.xml
+excerpt_link: more
+show_all_link: "\u5c55\u5f00\u5168\u6587"
+mathjax: false
+open_in_new:
+  article: true
+  menu: true
+  subNav: true
+reward_type: 0
+reward_wording: "\u8c22\u8c22\u4f60\u8bf7\u6211\u5403\u7cd6\u679c"
+alipay: /img/alipay.jpg
+weixin: /img/weixin.png
+toc: 1
+toc_hide_index: true
+toc_empty_wording: "\u76ee\u5f55\uff0c\u4e0d\u5b58\u5728\u7684\u2026"
+top: true
+baidu_analytics: ''
+google_analytics: ''
+favicon: false
+avatar: /img/head.jpg
+share_jia: true
+busuanzi:
+  enable: false
+  site_visit: true
+  article_visit: true
+music:
+  enable: false
+clickLove:
+  enable: false
+snow: false
+pageFooter:
+  litten: false
+baidu_push: false
+copyright_type: 2
+copyright_text:
+since: 2018
+progressBar:
+  enable: false
+  type: 'minimal'
+  color: blue
+apple_touch_icon: false
+tab_title_change:
+  enable: true
+  left_tab_title: '(つェ⊂) 我藏好了哦~ '
+  return_tab_title: '(*´∇｀*) 被你发现啦~ '
+word_count:
+  enable: true
+  only_article_visit: true
+activate_power_mode:
+  enable: false
+  colorful: true
+  shake: false
+smart_menu:
+  innerArchive: "\u6240\u6709\u6587\u7ae0"
+  friends: "\u53cb\u94fe"
+  aboutme: "\u5173\u4e8e\u6211"
+friends:
+  GitHub:
+    url: https://github.com/Kanda-Akihito-Kun
+  Bilibili:
+    url: https://space.bilibili.com/3220012
+aboutme: "Java backend, frontend, Linux and open-source projects."
