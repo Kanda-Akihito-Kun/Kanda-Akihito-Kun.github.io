@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>鼠鼠今天吃嘉然</title>
+  
+  <subtitle>【关于我尝试在AGI时代记录一点可能有点价值的事情这件事】</subtitle>
+  <link href="https://kanda-akihito-kun.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://kanda-akihito-kun.github.io/"/>
+  <updated>2026-09-17T23:52:47.953Z</updated>
+  <id>https://kanda-akihito-kun.github.io/</id>
+  
+  <author>
+    <name>鼠鼠今天吃嘉然</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://kanda-akihito-kun.github.io/2026/09/17/hello-world/"/>
+    <id>https://kanda-akihito-kun.github.io/2026/09/17/hello-world/</id>
+    <published>2026-09-16T16:00:00.000Z</published>
+    <updated>2026-09-17T23:52:47.953Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一个纯静态 Hexo 博客。</p><p>把新的 Markdown 文章放到 <code>source/_posts/</code>，执行 <code>npm run build</code> 后，Hexo 会生成可直接部署的 <code>public/</code> 文件。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是一个纯静态 Hexo 博客。&lt;/p&gt;
+&lt;p&gt;把新的 Markdown 文章放到 &lt;code&gt;source/_posts/&lt;/code&gt;，执行 &lt;code&gt;npm run build&lt;/code&gt; 后，Hexo 会生成可直接部署的 &lt;code&gt;public/&lt;/code&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://kanda-akihito-kun.github.io/tags/Hexo/"/>
+    
+    <category term="Static Site" scheme="https://kanda-akihito-kun.github.io/tags/Static-Site/"/>
+    
+  </entry>
+  
+</feed>
